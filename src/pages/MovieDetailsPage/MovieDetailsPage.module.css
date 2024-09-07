@@ -1,0 +1,44 @@
+.wpapper {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .wpapper {
+    flex-direction: column;
+  }
+}
+
+.image {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details p {
+  margin-bottom: 20px;
+}
+
+.additional {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #999;
+}
+
+.additional ul {
+    list-style: disc;
+    padding-left: 30px;
+  }
+
+  .backBtn {
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: none;
+    border-right: 0px solid;
+    cursor: pointer;
+  }

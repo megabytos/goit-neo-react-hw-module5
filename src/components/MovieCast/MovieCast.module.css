@@ -1,0 +1,28 @@
+.container {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #999;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+}
+
+.castList {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.castList li {
+  width: 150px;
+}
+
+.name {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-weight: 600;
+  margin: 0;
+}

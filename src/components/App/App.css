@@ -2,3 +2,27 @@
   display: flex;
   flex-direction: column;
 }
+
+header {
+  padding: 16px 20px 10px 20px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+padding: 10px 20px;
+}
+
+h1 {
+  padding-bottom: 16px;
+}
+
+nav a.active {
+  color: rgb(211, 101, 101);
+}
+
+ul a.active {
+  text-decoration: none;
+  color: rgb(211, 101, 101);
+  cursor: text;
+}
